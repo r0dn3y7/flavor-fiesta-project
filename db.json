@@ -1,0 +1,173 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "image": "images/spaghetti.carbonara.jpg",
+        "ingredients": [
+          "200g spaghetti",
+          "100g pancetta (or bacon), diced",
+          "2 large eggs",
+          "½ cup grated Parmesan cheese"
+         
+        ],
+        "instructions": [
+          "Cook spaghetti until al dente. Reserve some pasta water.",
+          "Whisk eggs and Parmesan together. Set aside.",
+          "Sauté pancetta in olive oil, add garlic.",
+          "Toss drained pasta with pancetta, remove from heat.",
+          "Season with salt and pepper, serve immediately."
+        ]
+    
+      },
+      {
+        "id": 2,
+        "name": "Chicken Alfredo",
+        "image":"images/chicken.alfredo.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts",
+          "250g fettuccine pasta",
+          "2 tbsp butter",
+          "1 cup grated Parmesan cheese"
+         
+        ],
+        "instructions": [
+          "Season and cook chicken, slice and set aside.",
+          "Cook fettuccine pasta until al dente.",
+          "Melt butter, sauté garlic, add heavy cream.",
+          "Combine pasta with sauce, top with chicken.",
+          "Serve hot with extra Parmesan."
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "Tacos al Pastor",
+        "image": "images/tacos.al.pastor.jpg",
+        "ingredients": [
+          "500g pork shoulder, thinly sliced",
+          "1 cup pineapple chunks",
+          "2 tbsp chili powder",
+          "1 tsp cumin"
+          
+        ],
+        "instructions": [
+          "Marinate pork with spices and lime juice.",
+          "Cook pork slices until slightly charred.",
+          "Grill pineapple alongside pork.",
+          "Warm tortillas, assemble tacos with pork and pineapple.",
+          "Top with onions and cilantro, serve with lime."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Butter Chicken",
+        "image": "images/butter.chicken.jpg",
+        "ingredients": [
+          "500g boneless chicken, cubed",
+          "2 tbsp butter",
+          "1 cup tomato purée",
+          "½ cup heavy cream",
+          "1 tbsp garam masala"
+  
+        ],
+        "instructions": [
+          "Marinate chicken with spices for 30 minutes.",
+          "Cook chicken in butter until browned.",
+          "Add garlic, tomato purée, and simmer.",
+          "Pour in heavy cream, stir well.",
+          "Simmer for 10 minutes, serve with rice or naan."
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "Sushi Rolls",
+        "image": "images/sushi.rolls.jpg",
+        "ingredients": [
+          "2 cups sushi rice",
+          "4 nori seaweed sheets",
+          "100g fresh salmon or tuna, sliced",
+          "½ cucumber, julienned",
+          "½ avocado, sliced"
+        
+        ],
+        "instructions": [
+          "Cook rice, season with vinegar and sugar.",
+          "Spread rice on nori, add fish, cucumber, avocado.",
+          "Roll tightly, slice into pieces.",
+          "Serve with soy sauce."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Pancakes",
+        "image": "images/pancakes.jpg",
+        "ingredients": [
+          "1 cup flour",
+          "1 tbsp sugar",
+          "1 cup milk",
+          "1 egg",
+          "1 tbsp butter, melted"
+         
+        ],
+        "instructions": [
+          "Mix dry ingredients in a bowl.",
+          "Whisk in milk, egg, and melted butter.",
+          "Cook pancakes on a heated pan until golden.",
+          "Serve with syrup or fruit."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Greek Salad",
+        "image": "images/greek.salad.jpg",
+        "ingredients": [
+          "1 cucumber, diced",
+          "2 tomatoes, chopped",
+          "½ red onion, sliced",
+          "½ cup feta cheese, crumbled"
+         
+        ],
+        "instructions": [
+          "Combine cucumber, tomatoes, onion, feta, and olives.",
+          "Drizzle with olive oil and lemon juice.",
+          "Toss gently, serve fresh."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Grilled Cheese Sandwich",
+        "image": "images/grilled.cheese.sandwich.jpg",
+        "ingredients": [
+          "2 slices bread",
+          "1 tbsp butter",
+          "2 slices cheese"
+        ],
+        "instructions": [
+          "Butter one side of each bread slice.",
+          "Place cheese between bread, buttered sides out.",
+          "Grill on medium heat until golden brown.",
+          "Serve warm."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Tomato Soup",
+        "image": "images/tomato.soup.jpg",
+        "ingredients": [
+          "2 cups tomatoes, chopped",
+          "1 cup vegetable broth",
+          "1 clove garlic, minced",
+          "½ onion, chopped"
+          
+        ],
+        "instructions": [
+          "Sauté onion and garlic in olive oil.",
+          "Add tomatoes, cook until soft.",
+          "Pour in broth, simmer for 10 minutes.",
+          "Blend until smooth, season, serve warm."
+        ]
+      }
+    ]
+    }
