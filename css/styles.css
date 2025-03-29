@@ -62,7 +62,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     margin-top: 15px;
 }
 
@@ -86,26 +86,23 @@ nav a:hover {
     background-color: #e64a19;
 }
 
-/* Recipes Container */
 #recipes-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 30px;
-    max-width: 1200px;
-    margin: auto;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 1 ;
+    visibility: visible ;
+}
+.recipe-card {
+    display: block ;
+    opacity: 1 ;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
 }
 
-/* Recipe Card */
-.recipe-card {
-    background: white;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align:left;
-    display: block;
-    transition: 0.3s;
-}
 
 .recipe-card:hover {
     transform: scale(1.05);
@@ -113,7 +110,7 @@ nav a:hover {
 
 .recipe-card img {
     width: 100%;
-    height: 100px;
+    height: 120px; 
     object-fit: cover;
     border-radius: 10px;
 }
@@ -121,6 +118,7 @@ nav a:hover {
 .recipe-card h3 {
     margin: 10px 0;
     color: #333;
+    min-height: 40px; 
 }
 
 .recipe-card button {
@@ -131,44 +129,115 @@ nav a:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    align-self: center;
 }
 
 .recipe-card button:hover {
     background-color: #e64a19;
 }
 
-/* Recipe Modal */
+/* Modal Styles */
 #recipe-modal {
-    display: none;
+    display: none; 
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; /* Ensures space around modal */
-}
-.modal-content img {
-    width: 100%;
-    max-height: 20vh; /* Ensures image doesn't take too much space */
-    object-fit: cover;
-    border-radius: 10px;
 }
 
-
-/* Modal Content */
-.modal-content {
+#modal-content {
     background: white;
     padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    max-height: 90vh; /* Ensures modal never exceeds 90% of screen height */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 600px;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
+}
+
+#modal-content img {
+    width: 100%;  
+    max-height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+#modal-content h2 {
+    margin: 10px 0;
+    
+}
+
+#modal-content p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Close button */
+.close-modal {
+    position: relative;
+    top: 40px;
+    right: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+
+#close-modal:hover {
+    color: #e64a19;
+}
+
+
+
+/* Add Recipe Form */
+.add-recipe {
+    background: #fff3e0;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.add-recipe h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#recipe-form input,
+#recipe-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#recipe-form button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#recipe-form button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }

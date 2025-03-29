@@ -40,8 +40,27 @@
 
     <!-- Recipe Modal -->
     <div id="recipe-modal">
-        <div class="modal-content" id="modal-content"></div>
+        <div id="modal-content"></div>
+        
     </div>
+
+    <!-- Recipe Submission Form -->
+<section class="add-recipe">
+    <h2>Add a New Recipe</h2>
+    <form id="recipe-form">
+        <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+        <input type="text" id="recipe-image" placeholder="Image URL" required>
+        <textarea id="recipe-ingredients" placeholder="Ingredients (comma separated)" required></textarea>
+        <textarea id="recipe-instructions" placeholder="Instructions (comma separated)" required></textarea>
+        <button type="submit">Add Recipe</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 FlavorFiesta. All rights reserved.</p>
+</footer>
+
 
     <script src="js/index.js"></script>
 </body>
