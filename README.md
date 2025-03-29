@@ -3,7 +3,7 @@ https://r0dn3y7.github.io/flavor-fiesta-project/
 
 # 🍽️ FlavorFiesta - Recipe Sharing Platform
 
-FlavorFiesta is a **recipe-sharing web application** where users can explore, save, and manage their favorite recipes. Built using **HTML, CSS, JavaScript, and DB JSON**, it allows users to search recipes and view details in a modal.
+FlavorFiesta is a **recipe-sharing web application** where users can explore their favorite recipes. Built using **HTML, CSS, JavaScript, and DB JSON**, it allows users to search recipes and view details in a modal.
 
 ## 🚀 Features
 - 📖 **View Recipes** – Browse a collection of delicious recipes.
